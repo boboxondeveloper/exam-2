@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Schoolbell&display=swap');
+
+
+* {
+    font-family: inter;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Variables */
+:root {
+    --c-title: #08546C;
+    --c-text: #757575;
+    --c-btnhover: #FFA800;
+    --c-body: #023748;
+    --c-btn: #094556;
+    --f-main: "Bai Jamjuree", sans-serif;
+    --transition: all .4s cubic-bezier(.165, .84, .44, 1);
+    --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+} 
+
+// header
+header {
+    background-color: var(--c-body);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 5;   
+    .logo {
+        img {
+            height: 40px;
+        }
+    }
+    .nav {
+        a {
+            color: var(--c-text);
+            font-size: 20px;
+        }
+        a:hover {
+            color: white;
+        }
+    }
+    .contact {
+        background-color: var(--c-btn);
+        color: white;
+        transition: all .1s;
+    }
+    .contact:hover {
+        background-color: var(--c-btnhover);
+
+    }
+    
+}
+#home {
+    background-color: var(--c-body);
+    overflow: hidden;
+    padding-bottom: 200px;
+    .for-m {
+        margin-top: 100px;
+        h2 {
+           font-size: 25px; 
+           background-color: var(--c-btn);
+           width: 200px;
+           font-family: Schoolbell;
+        }
+        h3 {
+            font-size: 64px;
+            color: white;
+        }
+        p {
+            color: var(--c-text);
+            font-size: 20px;
+        }
+        a {
+            transition: all .1s;
+            font-size: 20px;
+            background-color: var(--c-btn);
+        }
+        a:hover {
+            background-color: var(--c-btnhover);
+            color: white;
+        }
+    }
+    .imgs {
+        position: relative;
+        .img-1 {
+            width: 500px;
+        }
+        .img-2 {
+            position: absolute;
+            z-index: 1;
+            margin: 0;
+            width: 300px;
+            top: 400px;
+            left: 330px;
+        }
+    }
+    
+}
+.dr-p {
+    position: relative;
+    height: 100px;
+    .d-p  {
+        top: -150px;
+        left: 100px;
+        position: absolute;
+        h2, div p, div span {
+            color: var(--c-title);
+        }
+        h2 {
+            font-weight: 900;
+        }
+    }
+} 
+.s-3 {
+    margin-bottom: 100px;
+    margin-top: 200px;
+    h2 {
+        font-family: Schoolbell;
+        width: 80px;
+    }
+    h3 {
+        width: 500px;
+    }
+    
+    .servis {
+        div {
+            width: 250px;
+            height: 250px;
+            box-shadow: 0 0 10px var(--c-text);
+            padding: 30px 20px 0 20px;
+            transition: all .1s;
+            h3 {
+                font-size: 24px;
+                width: 100%;
+            }
+            i {
+                background-color: #F5FBFC;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                padding: 8px;
+                color: var(--c-title);
+            }
+            p {
+                color: var(--c-text);
+            }
+        }
+        div:hover {
+            background-color: var(--c-body);
+            color: white;
+            i {
+                background-color: var(--c-btnhover);
+                color: white;
+            }
+            p {
+                color: var(--c-text);
+            }
+        }
+    }
+    h4 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h6 {
+        width: 425px;
+        font-size: 13px;
+    }
+    .portfolio {
+        h5 {
+            color: var(--c-title);
+            font-size: 40px;
+            font-weight: 900;
+        }
+        p {
+            font-size: 16px;
+            color: var(--c-text);
+        }
+        a {
+            color: var(--c-title);
+            transition: all .1s;
+            font-weight: 900;
+        }
+        a:hover {
+            color: var(--c-btnhover);
+        }
+    }
+}
+.btn-1 {
+    height: 50px;
+    transform: translate(200px, 250px);
+    i {
+        color: yellow;
+        font-size: 50px;
+    }
+    
+}
+.btn-2 {
+    height: 50px;
+    transform: translate(-200px, 250px);
+    i {
+        color: yellow;
+        font-size: 50px;
+
+    }
+    
+}
+    .s-4 {
+        background-color: var(--c-body);
+        color: white;
+    }
+    // corousel
+    .s-5 {
+        .blog {
+            h5 {
+                color: var(--c-title);
+                font-size: 35px;
+            }
+            .lnk-1 {
+                a:hover {
+                    background-color: var(--c-btnhover);
+                }
+            }
+        }
+        .cor-22 {
+            h2 {
+                font-size: 45px;
+                width: 230px;
+            }
+            p {
+                font-size: 20px;
+                width: 340px;
+            }
+            a {
+                background-color: var(--c-btnhover);
+            }
+            .btn-1 {
+                height: 50px;
+                transform: translateY(300px);
+                margin-left: 50px;
+
+                i {
+                    color: yellow;
+                    font-size: 50px;
+                }
+                
+            }
+            .btn-2 {
+                height: 50px;
+                transform: translateY(300px);
+                margin-right: 300px;
+                i {
+                    color: yellow;
+                    font-size: 50px;
+                }
+                
+            }
+        }
+    }
+
+    
