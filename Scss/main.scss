@@ -194,7 +194,7 @@ header {
     height: 50px;
     transform: translate(200px, 250px);
     i {
-        color: yellow;
+        color: white;
         font-size: 50px;
     }
     
@@ -203,7 +203,7 @@ header {
     height: 50px;
     transform: translate(-200px, 250px);
     i {
-        color: yellow;
+        color: white;
         font-size: 50px;
 
     }
@@ -221,8 +221,13 @@ header {
                 font-size: 35px;
             }
             .lnk-1 {
+                a {
+                    color: var(--c-text);
+                    transition: all .2s;
+                }
                 a:hover {
-                    background-color: var(--c-btnhover);
+                    color: var(--c-btnhover);
+                    background-color: pink;
                 }
             }
         }
@@ -235,13 +240,14 @@ header {
                 font-size: 20px;
                 width: 340px;
             }
+
             a {
                 background-color: var(--c-btnhover);
             }
             .btn-1 {
                 height: 50px;
-                transform: translateY(300px);
-                margin-left: 50px;
+                top: 50px;
+                left: -100px;
 
                 i {
                     color: yellow;
@@ -250,9 +256,10 @@ header {
                 
             }
             .btn-2 {
-                height: 50px;
-                transform: translateY(300px);
-                margin-right: 300px;
+                height: 50px;               
+                top: 50px;
+                right: 100px;
+                
                 i {
                     color: yellow;
                     font-size: 50px;
@@ -261,5 +268,17 @@ header {
             }
         }
     }
+footer {
 
+    .log-1 {
+        width: 300px;
+        img {
+            height: 40px;
+        }
+        i {
+            color: var(--c-text);
+            font-size: 30px;
+        }
+    }
+}
     

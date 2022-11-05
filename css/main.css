@@ -185,7 +185,7 @@ header .contact:hover {
   transform: translate(200px, 250px);
 }
 .btn-1 i {
-  color: yellow;
+  color: white;
   font-size: 50px;
 }
 
@@ -194,7 +194,7 @@ header .contact:hover {
   transform: translate(-200px, 250px);
 }
 .btn-2 i {
-  color: yellow;
+  color: white;
   font-size: 50px;
 }
 
@@ -207,8 +207,13 @@ header .contact:hover {
   color: var(--c-title);
   font-size: 35px;
 }
+.s-5 .blog .lnk-1 a {
+  color: var(--c-text);
+  transition: all 0.2s;
+}
 .s-5 .blog .lnk-1 a:hover {
-  background-color: var(--c-btnhover);
+  color: var(--c-btnhover);
+  background-color: pink;
 }
 .s-5 .cor-22 h2 {
   font-size: 45px;
@@ -223,8 +228,8 @@ header .contact:hover {
 }
 .s-5 .cor-22 .btn-1 {
   height: 50px;
-  transform: translateY(300px);
-  margin-left: 50px;
+  top: 50px;
+  left: -100px;
 }
 .s-5 .cor-22 .btn-1 i {
   color: yellow;
@@ -232,10 +237,21 @@ header .contact:hover {
 }
 .s-5 .cor-22 .btn-2 {
   height: 50px;
-  transform: translateY(300px);
-  margin-right: 300px;
+  top: 50px;
+  right: 100px;
 }
 .s-5 .cor-22 .btn-2 i {
   color: yellow;
   font-size: 50px;
+}
+
+footer .log-1 {
+  width: 300px;
+}
+footer .log-1 img {
+  height: 40px;
+}
+footer .log-1 i {
+  color: var(--c-text);
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */

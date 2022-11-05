@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio-bmg</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header -->
     <header>
-        <div class="container d-flex justify-content-between align-items-center py-5 navbar navbar-dark">
+        <div class="container d-flex justify-content-between align-items-center py-3 navbar navbar-dark">
             <div class="logo">
                 <a href="#">
                     <img src="./Images/Logo-0.jpg" alt="Logo">
@@ -25,23 +22,23 @@
             <nav class="d-none d-lg-inline nav">
                 <ul class="d-flex mx-auto my-auto gap-5">
                     <li class="list-group-item d-flex  ">
-                        <a href="#home">Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li class="list-group-item d-flex  ">
-                        <a href="About">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="list-group-item d-flex  ">
-                        <a href="Service">Service</a>
+                        <a href="#service">Service</a>
                     </li>
                     <li class="list-group-item d-flex  ">
-                        <a href="Portfolio">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="list-group-item d-flexr ">
-                        <a href="Blog">Blog</a>
+                        <a href="#blog">Blog</a>
                     </li>
                 </ul>
             </nav>
-            <button class="d-none d-lg-inline border-0 contact flex-row px-5 py-3 rounded-5">Contact</button>
+            <a href="tel:998932214515" class="d-none d-lg-inline border-0 contact flex-row px-5 py-3 rounded-5">Contact</a>
 
             <button class="navbar-toggler d-inline d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -54,19 +51,19 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ms-5">
                         <li class="list-group-item d-flex  my-2">
-                            <a href="home">Home</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li class="list-group-item d-flex  my-2">
-                            <a href="About">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li class="list-group-item d-flex  my-2">
-                            <a href="Service">Service</a>
+                            <a href="#service">Service</a>
                         </li>
                         <li class="list-group-item d-flex  my-2">
-                            <a href="Portfolio">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li class="list-group-item d-flexr my-2">
-                            <a href="Blog">Blog</a>
+                            <a href="#blog">Blog</a>
                         </li>                 
                     </ul>
                     <a href="tel:998932214515" class="border-0 contact flex-row px-5 py-3 rounded-5">Contact</a>
@@ -75,7 +72,7 @@
     </header>
     <section id="home">
         <div class="container d-flex flex-wrap justify-content-between">
-            <div class="for-m col-lg-5 col-sm-12">
+            <div id="about" class="for-m col-lg-5 col-sm-12">
                 <h2 class="border-0 px-4 py-2 my-3 rounded-5 text-white">Hey, I’m Musa</h2>
                 <h3>Building Digital
                     Products, Brands
@@ -117,12 +114,12 @@
         </div>
 
     </section>
-    <section >
+    <section id="service">
         <div class="container s-3">
             <h2 class="text-center fs-4 mx-auto border-bottom border-3">Services</h2>
-            <h3 class="text-center fs-1 mx-auto my-5 py-5">Building Digital Product
+            <h3  class="text-center fs-1 mx-auto my-5 py-5">Building Digital Product
                 With Better Experience</h3>
-            <div class="servis d-flex justify-content-between flex-wrap">
+            <div  id="portfolio"  class="servis d-flex justify-content-between flex-wrap">
                 <div>
                     <i class="fa-solid fa-anchor my-3"></i>
                     <h3>UI/UX Design</h3>
@@ -152,11 +149,11 @@
                     some proccess and method.</p>
                 </div>
             </div>
-            <h4 class="mt-5">Featured My Portfolio</h4>
+            <h4  class="mt-5">Featured My Portfolio</h4>
             <h6 class="my-3">Explore some of my latest website projects. Non suscipit ex blandit
             vitae. Pellentesque vel urna id massa sagittis luctus Fusceiaculis.</h6>
             <div class="portfolio d-flex flex-wrap justify-content-between">
-                <div class="mt-5 mx-auto mx-lg-0 col-5">
+                <div class="mt-5 mx-auto mx-lg-0 col-sm-12 col-lg-5">
                     <img  src="./Images/Снимок экрана (27).png" class="card-img-top col-12" alt="...">
                     <div class="card-body border-light">
                         <h5 class="card-title mt-3">Website Design</h5>
@@ -168,7 +165,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="mt-5 mx-auto mx-lg-0 col-5">
+                <div class="mt-5 mx-auto mx-lg-0 col-sm-12 col-lg-5">
                     <img  src="./Images/Снимок экрана (29).png" class="card-img-top col-12" alt="...">
                     <div class="card-body border-light">
                         <h5 class="card-title mt-3">Website Design</h5>
@@ -180,7 +177,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="mt-5 mx-auto mx-lg-0 col-5">
+                <div class="mt-5 mx-auto mx-lg-0 col-sm-12 col-lg-5">
                     <img  src="./Images/Снимок экрана (28).png" class="card-img-top col-12" alt="...">
                     <div class="card-body border-light">
                         <h5 class="card-title mt-3">Website Design</h5>
@@ -192,7 +189,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="mt-5 mx-auto mx-lg-0 col-5">
+                <div class="mt-5 mx-auto mx-lg-0 col-sm-12 col-lg-5">
                     <img  src="./Images/Снимок экрана (31).png" class="card-img-top col-12" alt="...">
                     <div class="card-body border-light">
                         <h5 class="card-title mt-3">Website Design</h5>
@@ -208,7 +205,7 @@
             </div>
         </div>
     </section>
-    <section class="s-4">
+    <section id="blog" class="s-4">
         <div class="container d-flex justify-content-between py-5 my-5 flex-wrap">
             <img src="./Images/Group 3.png" alt="">
             <div id="carouselExampleControlsNoTouching" class="col-6 carousel slide my-auto" data-bs-touch="false">
@@ -248,8 +245,8 @@
         </div>
     </section>
     <section id="carousel" class="s-5">
-        <div class="container d-flex">
-            <div class="blog mt-5 mx-auto mx-lg-0 col-5">
+        <div class="container d-flex flex-wrap">
+            <div class="blog mt-5 mx-auto mx-lg-0 col-sm-12 col-lg-5">
                 <img  src="./Images/Rectanglend.png" class="card-img-top col-12" alt="...">
                 <div class="card-body border-light">
                     <h5 class="card-title mt-3">Website Design</h5>
@@ -257,15 +254,15 @@
                     emotional response to color, image,  andeye-tracking.
                     Every element is geared to create maximum appeal.</p>
                     <div class="d-flex lnk-1">
-                        <a class="text-dark me-1 px-3 py-2 rounded-5" href="">PUBLISHED IN</a>
-                        <a class="text-dark me-1 px-3 py-2 rounded-5" href="">Marketing</a>
-                        <a class="text-dark me-1 px-3 py-2 rounded-5" href="">Category</a>
+                        <a class="me-1 px-3 py-2 rounded-5" href="">PUBLISHED IN</a>
+                        <a class="me-1 px-3 py-2 rounded-5" href="">Marketing</a>
+                        <a class="me-1 px-3 py-2 rounded-5" href="">Category</a>
                         <p class="my-auto ms-5">05 jun, 2021</p>
                     </div>
                 </div>
             </div>
 
-            <div id="carouselExampleInterval" class="carousel slide col-6 cor-22 my-auto mx-5 px-5" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" class="carousel slide col-sm-12 col-lg-6 cor-22 my-auto mx-5 px-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active py-2" data-bs-interval="10000">
                     <h2>My Blog
@@ -288,18 +285,66 @@
                     <img src="..." class="d-block w-100" alt="...">
                   </div> -->
                 </div>
-                <button class="btn-1 carousel-control-prev bg-danger" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                    <i class="fa-solid fa-left-long ms-3"></i>
-                </button>
-                <button class="btn-2 carousel-control-next bg-danger" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                    <i class="fa-solid fa-right-long ms-3"></i>
-                </button>
+                <div class="icon-box">
+                    <button class="btn-1 carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <i class="fa-solid fa-left-long ms-3"></i>
+                    </button>
+                    <button class="btn-2 carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <i class="fa-solid fa-right-long ms-3"></i>
+                    </button>
+
+                </div>
             </div>
         </div>
       </section>
 
-      <footer>
-        
+      <footer class="mt-5">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="log-1">
+                <img class="mb-3" src="./Images/Logo-2.jpg" alt="">
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Lectus mattis nunc
+                    aliquam tincidunt est non.</p>
+                <div class="sot-s">
+                    <a class="me-3" href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="me-3" href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="me-3" href="">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="me-3" href="">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <p>Home</p>
+                <p>About</p>
+                <p>Service</p>
+                <p>Portfolio</p>
+                <p>Blog</p>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <p>Web Design</p>
+                <p>App Design</p>
+                <p>Dashboard</p>
+                <p>Illustration</p>
+                <p>Development</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>+00 88 999 888 22</p>
+                <p>example@gmail.com</p>
+                <p>www.portfolio.com</p>
+                <p>44, Housing State, 3200</p>
+            </div>
+        </div>
       </footer>
     
 
