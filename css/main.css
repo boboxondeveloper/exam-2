@@ -107,6 +107,8 @@ header .contact:hover {
   color: var(--c-title);
 }
 .dr-p .d-p h2 {
+  margin-bottom: 20px;
+  width: 80%;
   font-weight: 900;
 }
 

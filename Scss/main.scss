@@ -112,6 +112,8 @@ header {
             color: var(--c-title);
         }
         h2 {
+            margin-bottom: 20px;
+            width: 80%;
             font-weight: 900;
         }
     }
@@ -330,10 +332,6 @@ footer {
         top: -100px;
         left: 0;
        
-        h2, div p, div span {
-        }
-        h2 {
-        }
     }
     }
     .s-3 {
