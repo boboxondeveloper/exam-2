@@ -254,4 +254,68 @@ footer .log-1 img {
 footer .log-1 i {
   color: var(--c-text);
   font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  #home .for-m {
+    margin-top: 50px;
+  }
+  #home .for-m h2 {
+    font-size: 15px;
+    width: 150px;
+  }
+  #home .for-m h3 {
+    font-size: 30px;
+  }
+  #home .for-m p {
+    font-size: 10px;
+  }
+  #home .for-m aa {
+    transition: all 0.1s;
+    font-size: 20px;
+    background-color: var(--c-btn);
+  }
+  #home .for-m aa:hover {
+    background-color: var(--c-btnhover);
+    color: white;
+  }
+  #home .imgs {
+    padding-top: 20px;
+  }
+  #home .imgs .img-1 {
+    width: 300px;
+  }
+  #home .imgs .img-2 {
+    width: 200px;
+    top: 400px;
+    left: 60px;
+  }
+  .dr-p {
+    height: 50px;
+  }
+  .dr-p .d-p {
+    top: -100px;
+    left: 0;
+  }
+  .s-3 {
+    margin-top: 100px;
+  }
+  .s-3 h3 {
+    width: 350px;
+  }
+  .s-3 h6 {
+    width: 370px;
+  }
+  .s-4 .img-logo-2 {
+    width: 300px;
+  }
+  .btn-1 {
+    transform: translate(70px, 320px);
+  }
+  .btn-2 {
+    transform: translate(-100px, 320px);
+  }
+  footer {
+    margin-top: 200px;
+  }
 }/*# sourceMappingURL=main.css.map */

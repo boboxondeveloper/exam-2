@@ -281,4 +281,85 @@ footer {
         }
     }
 }
+
+@media screen and (max-width:500px) {
     
+
+    #home {
+        .for-m {
+            margin-top: 50px;
+            h2 {
+               font-size: 15px; 
+            //    background-color: var(--c-btn);
+               width: 150px;
+            //    font-family: Schoolbell;
+            }
+            h3 {
+                font-size: 30px;
+                // color: white;
+            }
+            p {
+                // color: var(--c-text);
+                font-size: 10px;
+            }
+            aa {
+                transition: all .1s;
+                font-size: 20px;
+                background-color: var(--c-btn);
+            }
+            aa:hover {
+                background-color: var(--c-btnhover);
+                color: white;
+            }
+        }
+        .imgs {
+            padding-top: 20px;
+            .img-1 {
+                width: 300px;
+            } 
+            .img-2 {
+                width: 200px;
+                top: 400px;
+                left: 60px;
+            }
+        }
+    }
+    .dr-p {
+        height: 50px;
+    .d-p  {
+        top: -100px;
+        left: 0;
+       
+        h2, div p, div span {
+        }
+        h2 {
+        }
+    }
+    }
+    .s-3 {
+        margin-top: 100px;
+       h3 {
+        width: 350px;
+       } 
+       h6 {
+        width: 370px;
+       }
+    }
+    .s-4 {
+        .img-logo-2 {
+            width: 300px;
+        }
+    }
+    .btn-1 {
+        transform: translate(70px, 320px);
+        
+    }
+    .btn-2 {
+        transform: translate(-100px, 320px);
+        
+    }
+    footer {
+        margin-top: 200px;
+    }
+
+}
