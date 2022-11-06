@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Schoolbell&display=swap");
 * {
   font-family: inter;
+  margin: 0;
 }
 
 a {
@@ -20,54 +21,78 @@ a {
   --transition: all .4s cubic-bezier(.165, .84, .44, 1);
   --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
 }
-/* loader */
-.loader-bg {
-  position: fixed;
-  z-index: 200;
-  background: #F5FBFC;
+
+/* Center the loader */
+#loader-1 {
   width: 100%;
   height: 100%;
+  background-color: white;
+  z-index: 11;
 }
-.loader-bg .loader {
-  border: 0 solid transparent;
-  width: 150px;
-  height: 150px;
+
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 111;
+  width: 120px;
+  height: 120px;
+  border: 16px solid #f3f3f3;
   border-radius: 50%;
-  position: absolute;
-  top: 50vh-;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
-.loader:after, .loader:before {
-  content: '';
-  border: 1px solid #Ff5733;
-  border-radius: 50%;
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: loader 2s linear infinite;
-  opacity: 0;
-}
-.loader:before {
-    animation-delay: .5s;
-}
-@keyframes loader  {
+
+@-webkit-keyframes spin {
   0% {
-      transform: scale(0);
-  }
-  50% {
-      opacity: 1;
+    -webkit-transform: rotate(0deg);
   }
   100% {
-      transform: scale(1);
-      opacity: 0;
+    -webkit-transform: rotate(360deg);
   }
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
 
-
-
-
-
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+#myDiv {
+  display: none;
+  text-align: center;
+}
 
 header {
   background-color: var(--c-body);
