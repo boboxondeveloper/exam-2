@@ -110,10 +110,10 @@ header {
 }
 .dr-p {
     position: relative;
-    height: 100px;
+    height: 200px;
     .d-p  {
+        width: 100%;
         top: -150px;
-        left: 100px;
         position: absolute;
         h2, div p, div span {
             color: var(--c-title);
