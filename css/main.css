@@ -329,13 +329,13 @@ footer .log-1 i {
     margin-top: 100px;
   }
   .s-3 h3 {
-    width: 350px;
+    width: 100%;
   }
   .s-3 h6 {
-    width: 370px;
+    width: 100%;
   }
   .s-4 .img-logo-2 {
-    width: 300px;
+    width: 100%;
   }
   .btn-1 {
     transform: translate(70px, 320px);
