@@ -282,7 +282,7 @@ header {
                 left: -100px;
 
                 i {
-                    color: yellow;
+                    color: var(--c-btnhover);
                     font-size: 50px;
                 }
                 
@@ -293,7 +293,7 @@ header {
                 right: 100px;
                 
                 i {
-                    color: yellow;
+                    color: var(--c-btnhover);
                     font-size: 50px;
                 }
                 

@@ -260,7 +260,7 @@ header .contact:hover {
   left: -100px;
 }
 .s-5 .cor-22 .btn-1 i {
-  color: yellow;
+  color: var(--c-btnhover);
   font-size: 50px;
 }
 .s-5 .cor-22 .btn-2 {
@@ -269,7 +269,7 @@ header .contact:hover {
   right: 100px;
 }
 .s-5 .cor-22 .btn-2 i {
-  color: yellow;
+  color: var(--c-btnhover);
   font-size: 50px;
 }
 
