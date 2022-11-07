@@ -334,14 +334,23 @@ footer .log-1 i {
   .s-3 h6 {
     width: 100%;
   }
+  .s-4 {
+    padding-bottom: 50px;
+  }
   .s-4 .img-logo-2 {
     width: 100%;
   }
   .btn-1 {
-    transform: translate(70px, 320px);
+    transform: translate(100px, 350px);
   }
   .btn-2 {
-    transform: translate(-100px, 320px);
+    transform: translate(-100px, 350px);
+  }
+  .btn-3 {
+    transform: translate(180px, 300px);
+  }
+  .btn-4 {
+    transform: translate(-10px, 300px);
   }
   footer {
     margin-top: 200px;
